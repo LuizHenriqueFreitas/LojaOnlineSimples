@@ -1,19 +1,19 @@
 package br.com.luiz.LojaOnline;
 
 public class Cliente {
-	//declarando os atributos da classe
+	//declarando os atributos da classe.
 	private String nome;
 	private String email;
 	private String cpf;
 	
-	//declarando o construtor da classe
+	//declarando o construtor da classe.
 	public Cliente (String nome, String email, String cpf) {
 		this.nome = nome;
 		this.email = email;
 		this.cpf = cpf;
 	}
 	
-	//Declarando os geters e seters de cada atributo
+	//Declarando os geters e seters de cada atributo.
 	public String getNome() {
 		return nome;
 	}
@@ -35,7 +35,7 @@ public class Cliente {
 		this.cpf = cpf;
 	}
 	
-	//usnado o metodo Override para sobrescrever o modo de apresentação dos dados
+	//usnado o metodo Override para sobrescrever o modo de apresentação dos dados.
 	@Override
 	public String toString() {
 		return "Cliente: " + nome + " / Email: " + email + "";
